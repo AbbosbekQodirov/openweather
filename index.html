@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>weather2</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="img/icon1.png" type="image/png">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="loaders">
+            <div class="loader">
+                Loading...
+            </div> <br>
+            <div class="btn">OK</div>
+        </div>
+
+        <audio id="myAudio1" >
+            <source src="music/tuman.mp3" type="audio/ogg">
+        </audio>
+        <audio id="myAudio2" >
+            <source src="music/qushlar.mp3" type="audio/ogg">
+        </audio>
+        <audio id="myAudio3" >
+            <source src="music/yomgir.mp3" type="audio/ogg">
+        </audio>
+        <audio id="myAudio4" >
+            <source src="music/yomgir.mp3" type="audio/ogg">
+        </audio>
+        <div class="weather_info">
+            <button class="weather-status"></button>
+                
+        </div>
+        <div class="text1">Fergana ,UZ <i class="fa-solid fa-location-dot"></i></div>
+        <form action="" class="search" >
+            <input type="text" class="input" autofocus><div class="btn1"><i class="fa-solid fa-magnifying-glass"></i></div>
+        </form>
+        <div class="info">
+            0℃
+        </div>
+        <div class="cardlar">
+            <div class="card">
+                <h3>Min-temp</h3>
+                <span><i class="fa-solid fa-temperature-empty"></i></span>
+                <span class="min">0℃</span> 
+                
+            </div>
+            <div class="card">
+                <h3>Max-temp</h3>
+                <span><i class="fa-solid fa-temperature-full"></i></i></span>
+                <span class="max">0℃</span>
+            </div>
+            <div class="card">
+                <h3>Wind speed</h3>
+                <span class="wind_speed">0 m/s</span>
+            </div>
+            <div class="card">
+                <h3>Updated <br> time</h3>
+                <span class="time">00:00</span>
+            </div>
+        </div>
+    </div>
+</body>
+<script src='js/main.js'></script>
+</html>
